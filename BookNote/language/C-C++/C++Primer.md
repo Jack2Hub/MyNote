@@ -73,6 +73,61 @@
 
 
 ## 字符串、向量和数组
+> string:   支持可变长字符串  
+> vector:   支持可变长的集合  
+> 迭代器:   是string和vector的配套类型，常被用于访问string中的字符或vector中的元素  
+> 内置数组: 一种更基础的类型，string和vector都是对它的抽象类型  
+
+### 命名空间的using声明
+> `std::cin` 表示编译器应从操作符左侧名字所示的作用域中寻找右侧那个名字，即要使用命名空间std中的名字cin
+
+- using namespace::name; // 有了using声明就无须专门的前缀（形如命名空间::）
+  - `using namespace::cin;`
+  - `using namespace::cout;`
+  - `using namespace::endl;`
+  * **头文件一般不包含using声明**
+
+### 标准库类型 string
+``` C++
+#include <string>
+using namespace std;
+```
+
+#### string对象的定义/初始化
+``` C++
+string s1;
+string s2(s1);
+string s2 = s1; // 同上
+string s3("value");
+string s3 = "value"; // 同上
+string s4(10, 'c');
+```
+- 直接初始化/拷贝初始化
+``` C++
+string s5 = "hello";  // 拷贝初始化
+string s6("hello");   // 直接初始化
+string s7(10, 'c');   // 直接初始化，这种初始化多个值的情况只能用直接初始化，除非专门显示创建一个(临时)对象来用于拷贝，如下：
+string s8 = string(10, 'c');
+```
+
+#### string对象的操作
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # C++标准库
