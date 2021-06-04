@@ -1,0 +1,15 @@
+1、free只能释放malloc的内存(堆)
+2、可重复free()，p或者null
+3、逻辑地址经段机制转化成线性地址；线性地址又经过页机制转化为物理地址。
+
+
+参考文章
+http://c.biancheng.net/gcc/
+https://blog.csdn.net/weixin_42500684/article/details/112265037
+https://blog.csdn.net/CD_keanu/article/details/45562449
+https://blog.csdn.net/cl_linux/article/details/80328608
+https://blog.csdn.net/yusiguyuan/article/details/12041317
+
+
+netlink
+https://www.cnblogs.com/alix-1988/p/12287015.html
