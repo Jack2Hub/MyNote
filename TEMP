@@ -16,3 +16,10 @@ https://www.cnblogs.com/alix-1988/p/12287015.html
 
 P2P
 https://blog.csdn.net/u014253011/article/details/81089421
+
+sizeof: 计算变量所占空间大小，参数为字符串时，'\0'也计算进去
+strlen: 计算有多少个字符，看见多少就算多少，'\0'不计算进去
+
+物联网IOT RTOS RT-Thread
+http://www.eepw.com.cn 电子产品世界
+
